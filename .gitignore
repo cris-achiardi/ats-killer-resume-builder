@@ -1,0 +1,14 @@
+# Build output
+build/output/
+
+# Python
+build/.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp

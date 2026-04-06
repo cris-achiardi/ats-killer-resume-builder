@@ -1,0 +1,106 @@
+name: "Cristián Morales Achiardi"
+role: "Design Engineer"
+
+contact:
+  - label: "Contact info"
+    entries:
+      - icon: email
+        text: "crmorales.achiardi@gmail.com"
+        url: "mailto:crmorales.achiardi@gmail.com"
+      - icon: linkedin
+        text: "cristian-morales-achiardi"
+        url: "https://linkedin.com/in/cristian-morales-achiardi"
+      - icon: location
+        text: "Chile (UTC -3)"
+  - label: "Portfolio"
+    entries:
+      - icon: web
+        text: "giorris.dev"
+        url: "https://giorris.dev"
+  - label: "Github"
+    entries:
+      - icon: github
+        text: "cris-achiardi"
+        url: "https://github.com/cris-achiardi"
+  - label: "Medium"
+    entries:
+      - icon: medium
+        text: "crmorales.achiardi"
+        url: "https://medium.com/@crmorales.achiardi"
+
+summary: >
+  Researching how AI reshapes design systems, design-to-code workflows, and trust between humans and machines.
+  I architect infrastructure for agentic design systems, ship functional prototypes that validate logic and
+  edge cases from day one, and build tools that accelerate design-to-code workflows. Featured articles published
+  in Design Systems Collective. 900+ installations of my open-source Claude skills. 10+ years at the intersection
+  of design and code.
+
+skills:
+  - - "Complex Systems Design"
+    - "Agentic Design Systems"
+    - "Code-Based Prototyping"
+    - "AI-Assisted Workflows"
+  - - "AI-Assisted development"
+    - "Research-Driven Design"
+    - "Cross-Functional Collaboration"
+
+languages:
+  - "Spanish - Native"
+  - "English - B2"
+
+experience:
+  - company: "Enara Health"
+    role: "Design Engineer"
+    start: "Sep 2023"
+    end: "present"
+    achievements:
+      - >
+        Architected Enara's agentic design system infrastructure (machine-readable metadata, codebase indexing,
+        AI protocols). Validated approach with benchmark studies: 2.5x faster component discovery, 54% higher
+        accuracy vs. baseline AI-assisted workflow, 90%+ precision in generative UI.
+      - >
+        Led the member app redesign grounded in a clinical study on key success factors in telehealth weight care.
+        Consolidated core actions, resulting in +29% appointment clicks, +13% progress views, and +25% more
+        members using logging tools.
+      - >
+        Redesigned Enara's website, contributing to 16.5% growth in active members and 230% more partner submissions.
+      - >
+        Directed Enara's brand refresh, aligning clinic assets, sales decks, and digital platforms under a unified
+        identity and standardized design patterns.
+
+  - company: "Honda"
+    role: "Web Designer - UX Consultant"
+    start: "Dec 2022"
+    end: "Feb 2024"
+    achievements:
+      - >
+        Led user research for Honda Services redesign (463 owners, 74.6% completion rate). AI-assisted analysis
+        crossing demographic, behavioral and attitudinal data. Discovered 61% of loyal customers didn't know the
+        platform existed, surfaced behavioral insights that enabled a go-to-market strategy shift.
+      - >
+        Designed landing pages that drove a 30% lift in leads for Honda's latest cars and motorcycles.
+
+articles:
+  - title: "Towards an agentic design system"
+    url: ""
+    publication: "Design Systems Collective (Medium)"
+    date: "Jan 2026"
+  - title: "Building an AI-Ready Design System"
+    url: ""
+    publication: "Featured on Design Systems Collective (Medium)"
+    date: "Dec 2025"
+  - title: "Can You Actually Systematize AI-Assisted Design Workflows?"
+    url: ""
+    publication: "Bootcamp (Medium)"
+    date: "Dec 2025"
+
+shipped:
+  - category: "Open source tooling"
+    year: 2025
+    entries:
+      - text: >
+          Built a <a href="#">Claude skills</a> plugin that superpowers design to code workflows and enables
+          the functional layers for agentic design systems with 900+ downloads via NPM.
+      - text: >
+          Published a <a href="#">Figma plugin</a> that adds code syntax generation. Essential for Figma to
+          code and token management pipelines.

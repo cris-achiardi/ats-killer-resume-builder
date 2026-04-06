@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ resume.name }} – Resume</title>
+  <link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="resume-header">
+    <h1><strong>{{ resume.name }}</strong> {{ resume.role }}</h1>
+  </header>
+
+  <!-- Contact Grid -->
+  <section class="contact-grid">
+    {% for column in resume.contact %}
+    <div class="contact-column">
+      <h3 class="contact-label">{{ column.label }}</h3>
+      {% for item in column.entries %}
+      <p class="contact-item">
+        {% if item.icon and icons[item.icon] %}<span class="icon">{{ icons[item.icon] | safe }}</span>{% endif %}
+        {% if item.url %}<a href="{{ item.url }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}
+      </p>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- Professional Summary -->
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="summary">{{ resume.summary }}</p>
+  </section>
+
+  <!-- Key Skills -->
+  <section>
+    <h2>Key Skills</h2>
+    <table class="skills-table">
+      {% for row in resume.skills %}
+      <tr>
+        {% for skill in row %}
+        <td>{{ skill }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </section>
+
+  <!-- Languages -->
+  <section>
+    <h2>Languages</h2>
+    <table class="languages-table">
+      <tr>
+        {% for lang in resume.languages %}
+        <td>{{ lang }}</td>
+        {% endfor %}
+      </tr>
+    </table>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- Work Experience -->
+  <section>
+    <h2>Work Experience</h2>
+    {% for job in resume.experience %}
+    <div class="job{% if not loop.last %} job-with-separator{% endif %}">
+      <div class="job-header">
+        <p class="job-title"><strong>{{ job.company }}</strong> - {{ job.role }}</p>
+        <p class="job-dates">{{ job.start }} to {{ job.end }}</p>
+      </div>
+      <ul>
+        {% for item in job.achievements %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- Featured Research & Articles -->
+  <section>
+    <h2>Featured Research &amp; Articles</h2>
+    <ul class="articles-list">
+      {% for article in resume.articles %}
+      <li>
+        {% if article.url %}"<a href="{{ article.url }}">{{ article.title }}</a>"{% else %}"{{ article.title }}"{% endif %}
+        &ndash; {{ article.publication }} &ndash; {{ article.date }}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Shipped -->
+  <section>
+    <h2>Shipped</h2>
+    {% for group in resume.shipped %}
+    <div class="shipped-group">
+      <div class="shipped-header">
+        <p class="shipped-category"><strong>{{ group.category }}</strong></p>
+        <p class="shipped-year">{{ group.year }}</p>
+      </div>
+      <ul>
+        {% for item in group.entries %}
+        <li>{{ item.text | safe }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+</body>
+</html>
