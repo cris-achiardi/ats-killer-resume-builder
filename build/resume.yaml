@@ -29,20 +29,16 @@ contact:
         url: "https://medium.com/@crmorales.achiardi"
 
 summary: >
-  Researching how AI reshapes design systems, design-to-code workflows, and trust between humans and machines.
-  I architect infrastructure for agentic design systems, ship functional prototypes that validate logic and
-  edge cases from day one, and build tools that accelerate design-to-code workflows. Featured articles published
-  in Design Systems Collective. 900+ installations of my open-source Claude skills. 10+ years at the intersection
-  of design and code.
+  Maker. Agentic systems builder, speaker, educator, and author. Design Engineer from Chile. I build pipelines and tooling that optimizes design & code workflows. Developing the skills, infrastructure, and methodology to make that real. No translation gaps, no interpretation errors. Just seamless execution between design and code.
 
 skills:
   - - "Complex Systems Design"
-    - "Agentic Design Systems"
+    - "Agentic Systems"
+    - "Design Systems"
     - "Code-Based Prototyping"
-    - "AI-Assisted Workflows"
-  - - "AI-Assisted development"
+  - - "AI-Assisted Workflows"
+    - "AI-Assisted development"
     - "Research-Driven Design"
-    - "Cross-Functional Collaboration"
 
 languages:
   - "Spanish - Native"
@@ -55,18 +51,13 @@ experience:
     end: "present"
     achievements:
       - >
-        Architected Enara's agentic design system infrastructure (machine-readable metadata, codebase indexing,
-        AI protocols). Validated approach with benchmark studies: 2.5x faster component discovery, 54% higher
-        accuracy vs. baseline AI-assisted workflow, 90%+ precision in generative UI.
+        Architected Enara's agentic design system infrastructure (machine-readable metadata, codebase indexing, AI protocols). Validated approach with benchmark studies: 2.5x faster component discovery, 54% higher accuracy vs. baseline AI-assisted workflow, 90%+ precision in generative UI.
       - >
-        Led the member app redesign grounded in a clinical study on key success factors in telehealth weight care.
-        Consolidated core actions, resulting in +29% appointment clicks, +13% progress views, and +25% more
-        members using logging tools.
+        Led the member app redesign grounded in a clinical study on key success factors in telehealth weight care. Consolidated core actions, resulting in +29% appointment clicks, +13% progress views, and +25% more members using logging tools.
       - >
         Redesigned Enara's website, contributing to 16.5% growth in active members and 230% more partner submissions.
       - >
-        Directed Enara's brand refresh, aligning clinic assets, sales decks, and digital platforms under a unified
-        identity and standardized design patterns.
+        Directed Enara's brand refresh, aligning clinic assets, sales decks, and digital platforms under a unified identity and standardized design patterns.
 
   - company: "Honda"
     role: "Web Designer - UX Consultant"
@@ -74,33 +65,29 @@ experience:
     end: "Feb 2024"
     achievements:
       - >
-        Led user research for Honda Services redesign (463 owners, 74.6% completion rate). AI-assisted analysis
-        crossing demographic, behavioral and attitudinal data. Discovered 61% of loyal customers didn't know the
-        platform existed, surfaced behavioral insights that enabled a go-to-market strategy shift.
+        Led user research for Honda Services redesign (463 owners, 74.6% completion rate). AI-assisted analysis crossing demographic, behavioral and attitudinal data. Discovered 61% of loyal customers didn't know the platform existed, surfaced behavioral insights that enabled a go-to-market strategy shift.
       - >
         Designed landing pages that drove a 30% lift in leads for Honda's latest cars and motorcycles.
 
-articles:
-  - title: "Towards an agentic design system"
-    url: ""
-    publication: "Design Systems Collective (Medium)"
-    date: "Jan 2026"
-  - title: "Building an AI-Ready Design System"
-    url: ""
-    publication: "Featured on Design Systems Collective (Medium)"
-    date: "Dec 2025"
-  - title: "Can You Actually Systematize AI-Assisted Design Workflows?"
-    url: ""
-    publication: "Bootcamp (Medium)"
-    date: "Dec 2025"
+talks:
+  - title: "Encoding governance on agentic design systems"
+    url: "https://www.intodesignsystems.com/"
+    publication: "Into Design Systems AI Conference 2026"
+    date: "Mar 19, 2026"
+  - title: "Building an agentic design system"
+    url: "https://nerdearla.com/chile/"
+    publication: "Nerdearla Chile 2026"
+    date: "Apr 18, 2026"
 
 shipped:
-  - category: "Open source tooling"
-    year: 2025
+  - category: "Articles"
     entries:
       - text: >
-          Built a <a href="#">Claude skills</a> plugin that superpowers design to code workflows and enables
+          <a href="https://medium.com/@crmorales.achiardi/list/agentic-design-systems-25eb67b1201a">"Towards an agentic design system"</a>, an 8 part series published via "Design Systems Collective" on Medium.
+  - category: "Open source tools"
+    entries:
+      - text: >
+          Built a <a href="https://github.com/cris-achiardi/claude-skills">Claude skills</a> plugin that superpowers design to code workflows and enables
           the functional layers for agentic design systems with 900+ downloads via NPM.
       - text: >
-          Published a <a href="#">Figma plugin</a> that adds code syntax generation. Essential for Figma to
-          code and token management pipelines.
+          Published <a href="https://www.figma.com/@cristianmorale1">Figma plugins</a> for design-to-code, and design systems pipelines.

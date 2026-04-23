@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ resume.name }} – Resume</title>
+  <title>{{ resume.name }} - Resume</title>
   <link rel="stylesheet" href="{{ css_path }}">
 </head>
 <body>
@@ -61,13 +61,11 @@
     </table>
   </section>
 
-  <hr class="section-rule">
-
   <!-- Work Experience -->
   <section>
     <h2>Work Experience</h2>
     {% for job in resume.experience %}
-    <div class="job{% if not loop.last %} job-with-separator{% endif %}">
+    <div class="job">
       <div class="job-header">
         <p class="job-title"><strong>{{ job.company }}</strong> - {{ job.role }}</p>
         <p class="job-dates">{{ job.start }} to {{ job.end }}</p>
@@ -81,16 +79,16 @@
     {% endfor %}
   </section>
 
-  <hr class="section-rule">
-
-  <!-- Featured Research & Articles -->
+  <!-- Talks -->
   <section>
-    <h2>Featured Research &amp; Articles</h2>
-    <ul class="articles-list">
-      {% for article in resume.articles %}
+    <h2>Talks</h2>
+    <ul class="talks-list">
+      {% for talk in resume.talks %}
       <li>
-        {% if article.url %}"<a href="{{ article.url }}">{{ article.title }}</a>"{% else %}"{{ article.title }}"{% endif %}
-        &ndash; {{ article.publication }} &ndash; {{ article.date }}
+        <div class="talk-header">
+          <p class="talk-title">"{{ talk.title }}" &ndash; {% if talk.url %}<a href="{{ talk.url }}">{{ talk.publication }}</a>{% else %}{{ talk.publication }}{% endif %}</p>
+          <p class="talk-date">{{ talk.date }}</p>
+        </div>
       </li>
       {% endfor %}
     </ul>
@@ -101,10 +99,7 @@
     <h2>Shipped</h2>
     {% for group in resume.shipped %}
     <div class="shipped-group">
-      <div class="shipped-header">
-        <p class="shipped-category"><strong>{{ group.category }}</strong></p>
-        <p class="shipped-year">{{ group.year }}</p>
-      </div>
+      <p class="shipped-category"><strong>{{ group.category }}</strong></p>
       <ul>
         {% for item in group.entries %}
         <li>{{ item.text | safe }}</li>
