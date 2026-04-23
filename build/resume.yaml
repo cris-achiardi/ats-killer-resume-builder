@@ -51,7 +51,7 @@ experience:
     end: "present"
     achievements:
       - >
-        Architected Enara's agentic design system infrastructure (machine-readable metadata, codebase indexing, AI protocols). Validated approach with benchmark studies: 2.5x faster component discovery, 54% higher accuracy vs. baseline AI-assisted workflow, 90%+ precision in generative UI.
+        Architected Enara's agentic design system; Token pipeline, contract schemas, and an agent-infrastructure layer (scaffolding, token audits, metadata, codebase indexing, PR review) that auto-enforces DesignOps + DevOps rules through the whole pipeline. The system sustains 100% component metadata and barrel-export parity, zero hardcoded colors across 42 components, and 1:1 auto-generated documentation. A self-auditing system that ensures governance at scale.
       - >
         Led the member app redesign grounded in a clinical study on key success factors in telehealth weight care. Consolidated core actions, resulting in +29% appointment clicks, +13% progress views, and +25% more members using logging tools.
       - >
@@ -83,11 +83,10 @@ shipped:
   - category: "Articles"
     entries:
       - text: >
-          <a href="https://medium.com/@crmorales.achiardi/list/agentic-design-systems-25eb67b1201a">"Towards an agentic design system"</a>, an 8 part series published via "Design Systems Collective" on Medium.
+          <a href="https://medium.com/@crmorales.achiardi/list/agentic-design-systems-25eb67b1201a">"Towards an agentic design system"</a>, Medium series featuring articles published in Design Systems Collective.
   - category: "Open source tools"
     entries:
       - text: >
-          Built a <a href="https://github.com/cris-achiardi/claude-skills">Claude skills</a> plugin that superpowers design to code workflows and enables
-          the functional layers for agentic design systems with 900+ downloads via NPM.
+          Built a <a href="https://github.com/cris-achiardi/claude-skills">Claude skills</a> that superpowers design to code workflows and enables the functional layers for agentic design systems with 1K+ installs via NPM.
       - text: >
-          Published <a href="https://www.figma.com/@cristianmorale1">Figma plugins</a> for design-to-code, and design systems pipelines.
+          Published 2 <a href="https://www.figma.com/@cristianmorale1">Figma plugins</a>: DS Adoption Tracker and Code Syntax Generator. Essential for design system adoption tracking and Figma to code pipelines.
